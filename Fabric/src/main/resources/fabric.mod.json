@@ -1,15 +1,15 @@
 {
   "schemaVersion": 1,
   "id": "automaticdoors",
-  "version": "4.5",
+  "version": "4.6",
 
   "name": "Automatic Doors",
   "description": "Automatically opens doors in front of the player and closes them with a configurable delay.",
   "authors": [ "Rick South" ],
   "contact": {
-    "homepage": "https://curseforge.com/minecraft/mc-mods/automatic-doors",
-    "sources": "https://github.com/ricksouth/serilum-mc-mod-sources/tree/main/sources/Automatic%20Doors",
-    "issues": "https://github.com/ricksouth/serilum-mc-mods/labels/Mod:%20Automatic%20Doors"
+    "homepage": "https://serilum.com/mod/automatic-doors",
+    "sources": "https://github.com/Serilum/Automatic-Doors",
+    "issues": "https://github.com/Serilum/.issue-tracker/labels/Mod:%20Automatic%20Doors"
   },
 
   "license": "All Right Reserved",
@@ -23,7 +23,7 @@
     "fabric": "*",
     "minecraft": ">=1.20",
     "java": ">=17",
-    "collective": ">=7.3"
+    "collective": ">=7.21"
   },
 
   "custom": {
