@@ -6,7 +6,7 @@ logoFile="icon.png"
 
 [[mods]]
 modId="automaticdoors"
-version="4.6"
+version="4.7"
 displayName="Automatic Doors"
 displayURL="https://serilum.com/mod/automatic-doors"
 authors="Rick South"
@@ -22,7 +22,7 @@ If you would like to contribute too, check out https://serilum.com/donate. Appre
 [[dependencies.automaticdoors]]
     modId="collective"
     mandatory=true
-    versionRange="[7.53,)"
+    versionRange="[7.54,)"
     ordering="NONE"
     side="BOTH"
 
