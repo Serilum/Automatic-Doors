@@ -4,6 +4,7 @@ import com.natamus.automaticdoors.neoforge.config.IntegrateNeoForgeConfig;
 import com.natamus.automaticdoors.neoforge.events.NeoForgeDoorEvent;
 import com.natamus.automaticdoors.util.Reference;
 import com.natamus.collective.check.RegisterMod;
+import com.natamus.collective.check.ShouldLoadCheck;
 import net.neoforged.neoforge.common.NeoForge;
 import net.neoforged.bus.api.IEventBus;
 import net.neoforged.fml.ModLoadingContext;
@@ -15,6 +16,10 @@ import net.neoforged.fml.javafmlmod.FMLJavaModLoadingContext;
 public class ModNeoForge {
 	
 	public ModNeoForge(IEventBus modEventBus) {
+		if (!ShouldLoadCheck.shouldLoad(Reference.MOD_ID)) {
+			return;
+		}
+
 		modEventBus.addListener(this::loadComplete);
 
 		setGlobalConstants();

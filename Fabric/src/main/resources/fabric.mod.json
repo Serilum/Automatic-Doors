@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "id": "automaticdoors",
-  "version": "4.7",
+  "version": "4.8",
 
   "name": "Automatic Doors",
   "description": "Automatically opens doors in front of the player and closes them with a configurable delay.",
@@ -23,7 +23,7 @@
     "fabric": "*",
     "minecraft": ">=1.20",
     "java": ">=21",
-    "collective": ">=7.55"
+    "collective": ">=7.78"
   },
 
   "custom": {
@@ -44,12 +44,9 @@
 	  " Alister",
 	  " Andrean Olgo",
 	  " aternosorg",
-	  " BirdieMiner",
 	  " Cherriesaurus",
-	  " Jack",
-	  " Jeremy Langford",
 	  " Michael W. S.",
-	  " pepe1191",
+	  " Nahuel Fernandez",
 	  " Shana Gitnick",
 	  " Tyler Behl"
   ]
