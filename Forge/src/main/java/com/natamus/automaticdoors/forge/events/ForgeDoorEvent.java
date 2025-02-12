@@ -9,12 +9,10 @@ import net.minecraftforge.event.TickEvent.LevelTickEvent;
 import net.minecraftforge.event.TickEvent.Phase;
 import net.minecraftforge.event.TickEvent.PlayerTickEvent;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
-import net.minecraftforge.fml.common.Mod.EventBusSubscriber;
 
-@EventBusSubscriber
 public class ForgeDoorEvent {
 	@SubscribeEvent
-	public void onWorldTick(LevelTickEvent e) {
+	public static void onWorldTick(LevelTickEvent e) {
 		Level level = e.level;
 		if (level.isClientSide || !e.phase.equals(Phase.START)) {
 			return;
@@ -24,7 +22,7 @@ public class ForgeDoorEvent {
 	}
 
 	@SubscribeEvent
-	public void onPlayerTick(PlayerTickEvent e) {
+	public static void onPlayerTick(PlayerTickEvent e) {
 		Player player = e.player;
 		Level level = player.level();
 		if (level.isClientSide || !e.phase.equals(Phase.START)) {
