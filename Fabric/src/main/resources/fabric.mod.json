@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "id": "automaticdoors",
-  "version": "4.9",
+  "version": "5.0",
 
   "name": "Automatic Doors",
   "description": "Automatically opens doors in front of the player and closes them with a configurable delay.",
@@ -23,7 +23,7 @@
     "fabric-api": "*",
     "minecraft": ">=1.21",
     "java": ">=21",
-    "collective": ">=8.4"
+    "collective": ">=8.8"
   },
 
   "custom": {
