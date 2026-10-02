@@ -1,7 +1,7 @@
-package com.natamus.automaticdoors.util;
+package com.serilum.automaticdoors.util;
 
-import com.natamus.automaticdoors.config.ConfigHandler;
-import com.natamus.automaticdoors.events.DoorEvent;
+import com.serilum.automaticdoors.config.ConfigHandler;
+import com.serilum.automaticdoors.events.DoorEvent;
 import com.natamus.collective.functions.TaskFunctions;
 import net.minecraft.core.BlockPos;
 import net.minecraft.world.level.Level;

@@ -1,7 +1,7 @@
-package com.natamus.automaticdoors.forge.config;
+package com.serilum.automaticdoors.forge.config;
 
 import com.natamus.collective.config.DuskConfig;
-import com.natamus.automaticdoors.util.Reference;
+import com.serilum.automaticdoors.util.Reference;
 import net.minecraftforge.client.ConfigScreenHandler;
 import net.minecraftforge.fml.ModLoadingContext;
 

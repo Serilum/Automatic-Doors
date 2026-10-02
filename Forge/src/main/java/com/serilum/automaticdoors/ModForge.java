@@ -1,8 +1,8 @@
-package com.natamus.automaticdoors;
+package com.serilum.automaticdoors;
 
-import com.natamus.automaticdoors.forge.config.IntegrateForgeConfig;
-import com.natamus.automaticdoors.forge.events.ForgeDoorEvent;
-import com.natamus.automaticdoors.util.Reference;
+import com.serilum.automaticdoors.forge.config.IntegrateForgeConfig;
+import com.serilum.automaticdoors.forge.events.ForgeDoorEvent;
+import com.serilum.automaticdoors.util.Reference;
 import com.natamus.collective.check.RegisterMod;
 import com.natamus.collective.check.ShouldLoadCheck;
 import net.minecraftforge.common.MinecraftForge;
@@ -32,7 +32,7 @@ public class ModForge {
 	}
 
 	private void loadComplete(final FMLLoadCompleteEvent event) {
-    	MinecraftForge.EVENT_BUS.register(ForgeDoorEvent.class);
+		MinecraftForge.EVENT_BUS.register(ForgeDoorEvent.class);
 	}
 
 	private static void setGlobalConstants() {

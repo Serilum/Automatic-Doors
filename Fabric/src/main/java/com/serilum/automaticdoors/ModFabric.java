@@ -1,14 +1,12 @@
-package com.natamus.automaticdoors;
+package com.serilum.automaticdoors;
 
-import com.natamus.automaticdoors.events.DoorEvent;
-import com.natamus.automaticdoors.util.Reference;
+import com.serilum.automaticdoors.events.DoorEvent;
+import com.serilum.automaticdoors.util.Reference;
 import com.natamus.collective.check.RegisterMod;
 import com.natamus.collective.check.ShouldLoadCheck;
 import com.natamus.collective.fabric.callbacks.CollectivePlayerEvents;
 import net.fabricmc.api.ModInitializer;
 import net.fabricmc.fabric.api.event.lifecycle.v1.ServerTickEvents;
-import net.fabricmc.fabric.api.event.lifecycle.v1.ServerWorldEvents;
-import net.minecraft.server.MinecraftServer;
 import net.minecraft.server.level.ServerLevel;
 import net.minecraft.server.level.ServerPlayer;
 

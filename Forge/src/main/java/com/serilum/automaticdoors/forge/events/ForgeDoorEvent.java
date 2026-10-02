@@ -1,6 +1,6 @@
-package com.natamus.automaticdoors.forge.events;
+package com.serilum.automaticdoors.forge.events;
 
-import com.natamus.automaticdoors.events.DoorEvent;
+import com.serilum.automaticdoors.events.DoorEvent;
 import net.minecraft.server.level.ServerLevel;
 import net.minecraft.server.level.ServerPlayer;
 import net.minecraft.world.entity.player.Player;

@@ -1,7 +1,7 @@
-package com.natamus.automaticdoors.fabric.config;
+package com.serilum.automaticdoors.fabric.config;
 
 import com.natamus.collective.config.DuskConfig;
-import com.natamus.automaticdoors.util.Reference;
+import com.serilum.automaticdoors.util.Reference;
 import com.terraformersmc.modmenu.api.ConfigScreenFactory;
 import com.terraformersmc.modmenu.api.ModMenuApi;
 

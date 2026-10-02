@@ -1,6 +1,6 @@
-package com.natamus.automaticdoors;
+package com.serilum.automaticdoors;
 
-import com.natamus.automaticdoors.config.ConfigHandler;
+import com.serilum.automaticdoors.config.ConfigHandler;
 
 public class ModCommon {
 
